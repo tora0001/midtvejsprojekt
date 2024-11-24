@@ -147,6 +147,10 @@ function moveSpidey(e) {
   }
 }
 
+function detectCollision(a, b) {
+  return a.x < b.x + b.width && a.x + a.width > b.x && a.y < b.y + b.height && a.y + a.height > b.y;
+}
+
 function playJumpSound() {
   var sound = new Audio("jump.wav");
   sound.play();
@@ -157,8 +161,4 @@ function playBuzzSound() {
   var buzzSound = new Audio("buzzer.wav");
   buzzSound.play();
   buzzSound.volume = 0.2;
-}
-
-function detectCollision(a, b) {
-  return a.x < b.x + b.width && a.x + a.width > b.x && a.y < b.y + b.height && a.y + a.height > b.y;
 }
