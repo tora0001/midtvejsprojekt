@@ -6,7 +6,7 @@ Spillets mål er at få den højeste score ved at guide spidey gennem åbningern
 Algoritmer brugt:
 
 - Tyngdekraft
-- Bevægelse af fuglen
+- Bevægelse af spidey
 - Kollisiondetektion
 - Scoreberegning
 - Generering af husene
@@ -25,7 +25,4 @@ Repo: https://github.com/tora0001/midtvejsprojekt/
 
 Deployment: https://tora0001.github.io/midtvejsprojekt/
 
-
-
 ![{0DE443BF-9993-41B7-B946-FEC79D6A98BA}](https://github.com/user-attachments/assets/24f2ff4f-187b-496a-a742-7c826817200a) ![{59577C33-AE2B-4557-B911-6132CE0511C0}](https://github.com/user-attachments/assets/7b4f3c7c-8437-4902-b931-7f5c407dc8a6)
-
