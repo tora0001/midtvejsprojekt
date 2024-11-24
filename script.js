@@ -1,3 +1,5 @@
+window.addEventListener("load", start);
+
 let board;
 let boardWidth = 360;
 let boardHeight = 640;
@@ -34,7 +36,7 @@ let score = 0;
 
 const gameOverMessage = document.querySelector("#game-over-message");
 
-window.onload = function () {
+function start() {
   board = document.getElementById("board");
   board.height = boardHeight;
   board.width = boardWidth;
@@ -53,9 +55,9 @@ window.onload = function () {
   bottomTowerImg.src = "./bottomtower.png";
 
   requestAnimationFrame(update);
-  setInterval(placeTowers, 1500); //every 1.5 seconds
+  setInterval(placeTowers, 1500);
   document.addEventListener("keydown", moveSpidey);
-};
+}
 
 function update() {
   requestAnimationFrame(update);
