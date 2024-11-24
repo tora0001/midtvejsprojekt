@@ -9,13 +9,13 @@ Algoritmer brugt:
 - Bevægelse af spidey
 - Kollisiondetektion
 - Scoreberegning
-- Generering af husene
+- Generering af bygninger
 - Reset af spillet
 
 Datastruktur brugt:
 
 - spidey vises som et objekt (x, y) og dimensioner (width, height)
-- Rørene gemt i array
+- Bygningerne gemt i array
 - velocityY og gravity til at simulere bevægelse
 - spil status og score
 
