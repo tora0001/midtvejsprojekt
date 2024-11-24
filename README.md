@@ -21,4 +21,5 @@ Datastruktur brugt:
 
 Lavet af Lucas Ø, Tobias & Emil S
 
-https://github.com/tora0001/midtvejsprojekt/
+Repo: https://github.com/tora0001/midtvejsprojekt/
+Deployment: https://tora0001.github.io/midtvejsprojekt/
