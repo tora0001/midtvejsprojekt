@@ -1,31 +1,7 @@
-Flappy Flap game
+Flappy spidey
 
-updatePlayer:
-
-- Tilføj gravity til spillerens hastighed.
-- Opdater spillerens y-position.
-- Hvis spilleren rammer toppen eller bunden af skærmen, afslut spillet.
-
-generateObstacle:
-
-- Lav et nyt objekt med en tilfældig højde.
-- Placer objektet uden for højre side af skærmen.
-- Tilføj objektet til en liste af forhindringer.
-
-updateObstacles:
-
-- Flyt alle forhindringer mod venstre.
-- Fjern forhindringer, der er uden for skærmen.
-
-checkCollision:
-
-- For hver forhindring:
-  - Hvis spilleren overlapper med forhindringen, afslut spillet.
-
-endGame:
-
-- Stop spil-loopet.
-- Vis en "Game Over"-besked.
+Formål:
+Spillets mål er at få den højeste score ved at guide spidey gennem åbningerne mellem bygningerne (eller andre forhindringer) uden at kollidere med dem. Hver gang spidey passerer et sæt bygninger, får spilleren et point. Hvis spidey rammer bygningerne starter spillet forfra og points bliver reset.
 
 Algoritmer brugt:
 
@@ -33,12 +9,14 @@ Algoritmer brugt:
 - Bevægelse af fuglen
 - Kollisiondetektion
 - Scoreberegning
-- Generation af rørene
+- Generering af husene
 - Reset af spillet
 
 Datastruktur brugt:
 
-- Fugl vises som et objekt (x, y) og dimensioner (width, height)
+- spidey vises som et objekt (x, y) og dimensioner (width, height)
 - Rørene gemt i array
 - velocityY og gravity til at simulere bevægelse
 - spil status og score
+
+Lavet af Lukas, Tobias & Emil
