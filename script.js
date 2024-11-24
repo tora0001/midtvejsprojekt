@@ -138,13 +138,17 @@ function moveSpidey(e) {
     playJumpSound();
 
     if (gameOver) {
-      spidey.y = spideyY;
-      towerArray = [];
-      score = 0;
-      gameOver = false;
-      gameOverMessage.innerHTML = "Flappy Spidey";
+      endGame();
     }
   }
+}
+
+function endGame() {
+  spidey.y = spideyY;
+  towerArray = [];
+  score = 0;
+  gameOver = false;
+  gameOverMessage.innerHTML = "Flappy Spidey";
 }
 
 function detectCollision(a, b) {
