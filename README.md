@@ -19,4 +19,6 @@ Datastruktur brugt:
 - velocityY og gravity til at simulere bevægelse
 - spil status og score
 
-Lavet af Lukas, Tobias & Emil
+Lavet af Lucas, Tobias & Emil
+
+https://github.com/tora0001/midtvejsprojekt/
