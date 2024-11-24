@@ -37,7 +37,7 @@ let score = 0;
 const gameOverMessage = document.querySelector("#game-over-message");
 
 function start() {
-  board = document.getElementById("board");
+  board = document.querySelector("#board");
   board.height = boardHeight;
   board.width = boardWidth;
   context = board.getContext("2d");
